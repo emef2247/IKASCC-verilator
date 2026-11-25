@@ -1,0 +1,23 @@
+# Verilator build artifacts
+obj_dir/
+*.vcd
+*.fst
+
+# Local build directory
+build/
+
+# Editor/OS files
+*.swp
+*~
+.DS_Store
+
+# Generated renderings and comparison reports
+/outputs/
+
+# Upstream RTL is fetched locally, never vendored here.
+/rtl/
+/tests/__pycache__/
+
+# Private/user-supplied fixture archives remain local.
+/tests/fixtures/
+__pycache__/
